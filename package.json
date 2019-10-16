@@ -1,0 +1,44 @@
+{
+  "name": "@christfellowshipchurch/useform",
+  "version": "1.0.0",
+  "description": "A react hook inspired for handling forms inspired by Formik",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production rm -rf ./lib && mkdir -p lib && babel ./src -d ./lib --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christfellowshipchurch/useForm.git"
+  },
+  "author": "Caleb Panza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christfellowshipchurch/useForm/issues"
+  },
+  "homepage": "https://github.com/christfellowshipchurch/useForm#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "react": "^16.8.6",
+    "react-scripts": "^3.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6"
+  }
+}
