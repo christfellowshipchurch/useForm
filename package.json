@@ -40,5 +40,8 @@
     "@babel/cli": "^7.4.3",
     "lodash": "^4.17.11",
     "react": "^16.8.6"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
